@@ -236,13 +236,13 @@ function writePassword() {
     var passwordText = document.querySelector("#password");
 
 
-passwordText.value = password;
+    passwordText.value = password;
 
 
-copyBtn.removeAttribute("disabled");
-//focus just colors an html element to let the user know they clicked it.
-//In this case, the copy button will be colored after they their password.
-copyBtn.focus();
+    copyBtn.removeAttribute("disabled");
+    //focus just colors an html element to let the user know they clicked it.
+    //In this case, the copy button will be colored after user copies their password.
+    copyBtn.focus();
 }
 
 function copyToClipboard() {
